@@ -1,9 +1,7 @@
-# Hybrid Neural Network
-Accompanying codebase of a publication.
+# Deep Inception Neural Network
+Code to train a deep inception model, as well as an accompanying post processing/evaluation script. 
+The parameters of a sample model are given with this repository. The post processing script showcases how to load the model.
 
-Code will be shared after the publication has been accepted. Contents of the repository will be
-- tensorflow code for the hybrid neural network
-- the final best trained models as discussed in the manuscript
-- an implementation for Conv2DPeriodic in tensorflow
-- main file to train a new model
-- various (post processing) scripts
+Note that this code relies heavily on the `python scripts` repository  (https://github.com/J-lissner/python_scripts). Thus, it is recommended to clone this repository as well, and add the scripts into the `$PYTHONPATH`.
+
+**Note:** Has been developed in `tensorflow version 2.11.0`. Latest changes in tensorflow (seen for 2.16) have broken the evaluation of the deep inception module and a rollback might be neccessary.
