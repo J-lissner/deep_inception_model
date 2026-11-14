@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+
+authors:
+  - family-names: "Lißner"
+    given-names: "Julian"
+    orcid: "https://orcid.org/0000-0002-2286-5211"
+
+title: "RVE Generator"
+version: 1.0.0
+date-released: 2026-11-14
+url: "https://github.com/J-lissner/deep_inception_model"
+
+type: software
